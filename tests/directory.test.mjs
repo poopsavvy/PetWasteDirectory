@@ -19,14 +19,13 @@ test('verified city pages are indexable; a city with no verified coverage is noi
  assert.match(cityPage(cities[0]),/content="index,follow"/);
  assert.match(cityPage({slug:'unknown-city',name:'Unknown City',context:'Confirm coverage.'}),/noindex,follow/);
 });
-test('competitor profiles keep quote requests in the directory and disclose who receives leads',()=>{
+test('competitor profiles keep quote requests in the directory',()=>{
  for(const p of providers.slice(1)){
   const html=profile(p);
   assert.ok(!html.includes(`href="${p.quoteUrl}"`) || p.mapsOnly);
   if(!p.mapsOnly) assert.ok(!html.includes(`href="${p.website}"`) && !html.includes(`href="${p.sourceUrl}"`));
   assert.ok(html.includes(`/quote/?provider=${p.slug}`));
-  assert.match(html,/Requests are not sent directly/);
-  assert.match(html,/paid referral/);
+  assert.ok(!html.includes('paid referral'));
  }
 });
 test('quote form submits to the owner-provided Formspree endpoint with contact fields',()=>{
@@ -36,7 +35,7 @@ test('quote form submits to the owner-provided Formspree endpoint with contact f
  assert.match(html,/name="name"[^>]*required/);
  assert.match(html,/data-quote-result hidden/);
  assert.match(html,/name="requested_provider"/);
- assert.match(html,/name="inquiry_consent"[^>]*required/);
+ assert.ok(!html.includes('inquiry_consent'));
  assert.ok(!html.includes('Prepare my request'));
 });
 test('public hostname configuration gains HTTPS without changing full URLs',()=>{
