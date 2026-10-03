@@ -29,3 +29,5 @@ Second pass: added source-backed competitor rows using the original concept’s 
 Final expansion: 24 profiles and a regional all-provider page retain the listing design. Search and service filters keep the disclosed featured owner visible and clearly distinguish matching competitors. Browser checks passed for these states, all 40 pages, desktop and mobile; final screenshots were refreshed.
 
 Quote page update: owner-authorized Formspree submission replaces the copy-message step, using the existing form styles. Required contact fields, inline failure feedback with retained inputs, and an accessible success confirmation were verified on mobile.
+
+Lead routing update: listing actions now say Request a quote and stay in the directory. The profile has a bottom quote CTA using existing typography and button styles. The form adds a provider selector and required referral agreement using existing controls; mobile overflow and route continuity were checked.

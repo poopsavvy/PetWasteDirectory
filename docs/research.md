@@ -48,3 +48,7 @@ Poop Savvy's website names eight directory cities; Dallas and Waxahachie are exp
 ## Quote form update
 
 The owner supplied https://formspree.io/f/mzebwlzj and authorized connecting it. The directory quote form now POSTs to this endpoint. This supersedes the local message preparation flow above. Name and email are required; phone is optional. Success and failure handling were browser-tested using intercepted responses; no actual lead or email delivery was tested. Recipient configuration is managed by the owner in Formspree.
+
+## Directory lead routing update
+
+Competitor website anchors have been removed from listings and profiles. Research source URLs remain here and in source data. Public Maps reference links remain. All quote buttons now open the directory form with the chosen provider identified; the bottom profile CTA explains that Poop Savvy receives the request. A required agreement covers contacting the visitor or sharing details with their selected provider for a paid referral. Submission only goes to the owner's Formspree endpoint; no automatic forwarding, sale, or guaranteed response is implemented. This supersedes earlier references to independent competitor contact buttons. Browser requests were intercepted to verify provider selection, consent, and payload without sending a real lead.

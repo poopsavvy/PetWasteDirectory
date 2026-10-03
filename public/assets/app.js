@@ -29,6 +29,10 @@ const quote = document.querySelector('[data-quote-form]');
 if (quote) {
   const city = new URLSearchParams(location.search).get('city');
   if ([...quote.elements.city.options].some(o => o.value === city)) quote.elements.city.value = city;
+  const providerSlug = new URLSearchParams(location.search).get('provider');
+  const provider = quote.querySelector('[data-requested-provider]');
+  const chosen = [...provider.options].find(o => o.dataset.slug === providerSlug);
+  if (chosen) provider.value = chosen.value;
   let sending = false;
   quote.addEventListener('submit', async event => {
     event.preventDefault();

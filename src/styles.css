@@ -3,3 +3,5 @@
 @media(min-width:1450px){.hero-photo{height:425px}}
 @media(min-width:1101px) and (max-width:1200px){.wrap{padding-left:60px;padding-right:60px}.hero{gap:35px}.hero h1{font-size:72px}}
 .provider-logo.secondary{background:#dce5d3;color:#78936c}.provider-row:not(.featured){padding-top:22px;padding-bottom:22px}.provider-row:not(.featured) .provider-logo{width:60px;height:60px}.provider-row:not(.featured) .provider-logo svg{width:33px;height:33px}
+
+.quote-form .consent{font-weight:normal;line-height:1.6}.quote-form .consent input{display:inline-block;width:auto;margin:0 8px 0 0;vertical-align:middle}
