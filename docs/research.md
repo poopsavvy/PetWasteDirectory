@@ -44,3 +44,7 @@ The user explicitly approved trusting the environment-supplied proxy CA. Chromiu
 DoodyCalls' official website returned a Cloudflare HTTP 403, including in a normal browser. Its profile therefore uses the verified public Maps listing and avoids unsupported coverage claims. The configured owner quote continuation destination also returned HTTP 403; it is retained alongside the independently verified https://poop-savvy.com/#quote-section form link. The local quote tool prepares a message without submitting a lead.
 
 Poop Savvy's website names eight directory cities; Dallas and Waxahachie are explicitly marked unconfirmed. Routes, contact details, prices, and availability can change and should be reconfirmed directly. No site deployment or Search Console submission has been performed.
+
+## Quote form update
+
+The owner supplied https://formspree.io/f/mzebwlzj and authorized connecting it. The directory quote form now POSTs to this endpoint. This supersedes the local message preparation flow above. Name and email are required; phone is optional. Success and failure handling were browser-tested using intercepted responses; no actual lead or email delivery was tested. Recipient configuration is managed by the owner in Formspree.

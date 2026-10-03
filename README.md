@@ -20,7 +20,7 @@ Development server: port 4321. `npm run dev` builds once and serves the result; 
 - `src/data.mjs`: provider information, city pages, production configuration, featured ordering.
 - `src/templates.mjs`: semantic HTML pages, metadata, ownership disclosures.
 - `src/styles.css`: shared design system and responsive layouts.
-- `public/assets/app.js`: client-side search, city selection, and local quote preparation.
+- `public/assets/app.js`: client-side search, city selection, and Formspree submissions.
 - `scripts/build.mjs`: static output into ignored `dist/`.
 - `scripts/serve.mjs`: development/static server with correct 404 responses.
 - `tests/directory.test.mjs`: ordering, disclosures, indexing, and escaping checks.
@@ -29,7 +29,7 @@ Development server: port 4321. `npm run dev` builds once and serves the result; 
 
 Twenty-four provider profiles are included: 21 supported by official websites and three explicitly labeled Google Maps listings. Ten city pages cover DeSoto, Cedar Hill, Duncanville, Lancaster, Red Oak, Waxahachie, Midlothian, Glenn Heights, Ovilla, and Dallas. Competitors appear on city pages only where their official website confirms coverage; regional listings without verified routes appear in the all-provider directory. Poop Savvy stays featured first under city, search, and service filters, explicitly flagging unconfirmed coverage in Dallas and Waxahachie. Featured placement reflects ownership, not an independent quality ranking.
 
-The official Poop Savvy quote form and public phone are connected. The local quote tool prepares a message; it does not submit a lead. An existing configured quote destination returned HTTP 403; its continuation link is retained alongside the independently verified official website route.
+The quote form submits directly to the owner-provided Formspree endpoint, `https://formspree.io/f/mzebwlzj`. It collects name, email, optional phone, city, ZIP, dog count, frequency, and notes. JavaScript keeps visitors on the page, shows success only after an HTTP success response, and retains inputs on failure. Without JavaScript it posts normally to Formspree. Delivery recipients and spam rules are managed in the owner's Formspree dashboard. The privacy page explains this processing.
 
 Canonical URLs and sitemap use the configured domain. Bare hostnames are normalized to HTTPS. City pages with confirmed provider coverage are indexable; an unsupported city remains noindex.
 
@@ -40,7 +40,7 @@ Google Maps research covered ten city searches and 60 distinct candidate listing
 Configure these environment values during the build, using verified owner information:
 
 - `SITE_URL`: actual HTTPS directory domain, needed for canonical URLs and `sitemap.xml`.
-- `POOP_SAVVY_QUOTE_URL`: official HTTPS quote/contact destination.
+- `POOP_SAVVY_QUOTE_URL`: legacy external quote destination; the on-page form uses the owner-provided Formspree endpoint.
 - `POOP_SAVVY_PHONE`: optional real public phone number.
 
 ```sh
@@ -56,13 +56,13 @@ The HTML includes crawlable text, provider and guide links, page titles/descript
 Before public launch:
 
 1. Refresh Google Maps and official-source research periodically; verify additional providers before adding them.
-2. Review the configured quote destination (it returned HTTP 403); the verified official Poop Savvy form is already linked.
+2. Verify the Formspree form is active and its notification recipient is correct in the owner dashboard.
 3. Confirm the configured production domain and select a static host.
 4. Update the privacy page for the selected host and verify live forms.
 5. Deploy and submit the generated sitemap in Google Search Console.
 
 ## Validation
 
-`npm test` runs 12 meaningful tests. Browser QA used Python Playwright with the existing `/usr/bin/chromium` because a Browser/IAB plugin was unavailable. Desktop 1440px and mobile 390px were checked for image loading, search/reset, city navigation, request generation and clipboard feedback, all 40 pages, source-based city/service filters, independent competitor contacts, sitemap, and 404 handling. The quote tool was verified to prepare a message without sending it.
+`npm test` runs 12 meaningful tests. Browser QA used Python Playwright with the existing `/usr/bin/chromium` because a Browser/IAB plugin was unavailable. Desktop 1440px and mobile 390px were checked for image loading, search/reset, city navigation, form validation and success/error feedback, all 40 pages, source-based city/service filters, independent competitor contacts, sitemap, and 404 handling. Formspree browser requests were intercepted to test validation, payload, HTTP failure with retained inputs, and successful confirmation without sending a real lead.
 
 See `docs/design-review.md` for the design comparison and deliberate content changes.

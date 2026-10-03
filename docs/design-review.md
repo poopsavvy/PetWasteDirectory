@@ -27,3 +27,5 @@ Final adjustments: increased desktop headline/section type and tightened header-
 Second pass: added source-backed competitor rows using the original concept’s list layout; official quote CTA, source links, published coverage, and additional city links are intentional content changes. Desktop/mobile screenshots were inspected again; hero/header typography, green/sage/orange palette, list spacing, image treatment, and responsive controls remain consistent. The retained homepage screenshot now shows actual researched providers.
 
 Final expansion: 24 profiles and a regional all-provider page retain the listing design. Search and service filters keep the disclosed featured owner visible and clearly distinguish matching competitors. Browser checks passed for these states, all 40 pages, desktop and mobile; final screenshots were refreshed.
+
+Quote page update: owner-authorized Formspree submission replaces the copy-message step, using the existing form styles. Required contact fields, inline failure feedback with retained inputs, and an accessible success confirmation were verified on mobile.

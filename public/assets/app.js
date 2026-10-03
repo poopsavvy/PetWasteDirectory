@@ -29,20 +29,29 @@ const quote = document.querySelector('[data-quote-form]');
 if (quote) {
   const city = new URLSearchParams(location.search).get('city');
   if ([...quote.elements.city.options].some(o => o.value === city)) quote.elements.city.value = city;
-  quote.addEventListener('submit', event => {
+  let sending = false;
+  quote.addEventListener('submit', async event => {
     event.preventDefault();
-    const data = new FormData(quote);
-    const cityName = quote.elements.city.selectedOptions[0].textContent;
-    const message = `Hi Poop Savvy! I’d like a pet waste removal quote.\n\nCity: ${cityName}\nZIP code: ${data.get('zip')}\nNumber of dogs: ${data.get('dogs')}\nPreferred frequency: ${data.get('frequency')}\n${data.get('notes') ? `Additional details: ${data.get('notes')}\n` : ''}\nPlease confirm service availability, what is included, and the price for my property.`;
-    document.querySelector('#quote-message').value = message;
-    const result = document.querySelector('[data-quote-result]');
-    result.hidden = false;
-    result.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+    if (sending || !quote.reportValidity()) return;
+    sending = true;
+    const button = quote.querySelector('[type="submit"]');
+    const status = quote.querySelector('[data-quote-status]');
+    button.disabled = true;
+    quote.setAttribute('aria-busy', 'true');
+    status.textContent = 'Sending your request…';
+    try {
+      const response = await fetch(quote.action, {method: 'POST', body: new FormData(quote), headers: {Accept: 'application/json'}});
+      if (!response.ok) throw new Error('Submission failed');
+      quote.hidden = true;
+      const result = document.querySelector('[data-quote-result]');
+      result.hidden = false;
+      result.focus();
+    } catch {
+      status.textContent = 'We couldn’t confirm your request was sent. Your details are still here. Please try again or call Poop Savvy.';
+    } finally {
+      sending = false;
+      button.disabled = false;
+      quote.removeAttribute('aria-busy');
+    }
   });
 }
-document.querySelector('[data-copy]')?.addEventListener('click', async () => {
-  const text = document.querySelector('#quote-message');
-  const status = document.querySelector('[data-copy-status]');
-  try { await navigator.clipboard.writeText(text.value); status.textContent = 'Copied. Your request has not been sent.'; }
-  catch { text.focus(); text.select(); status.textContent = 'Select and copy the message above. Your request has not been sent.'; }
-});

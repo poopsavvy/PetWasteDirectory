@@ -23,9 +23,13 @@ test('competitor profiles use their own contact routes and source evidence',()=>
  for(const p of providers.slice(1)){const html=profile(p);assert.ok(html.includes(p.quoteUrl));assert.ok(html.includes(p.sourceUrl));assert.ok(!html.split('<main id="main">')[1].split('</main>')[0].includes('href="/quote/"'));
  }
 });
-test('quote workflow does not falsely claim to submit a lead',()=>{
- assert.match(quote(),/This message has not been sent/);assert.match(quote(),/Get my quote from Poop Savvy/);
- if(config.quoteUrl)assert.match(quote(),/Continue to Poop Savvy/);
+test('quote form submits to the owner-provided Formspree endpoint with contact fields',()=>{
+ const html=quote();
+ assert.match(html,/action="https:\/\/formspree.io\/f\/mzebwlzj" method="POST"/);
+ assert.match(html,/name="email" type="email"[^>]*required/);
+ assert.match(html,/name="name"[^>]*required/);
+ assert.match(html,/data-quote-result hidden/);
+ assert.ok(!html.includes('Prepare my request'));
 });
 test('public hostname configuration gains HTTPS without changing full URLs',()=>{
  assert.equal(normalizeSiteUrl('directory.example.com'),'https://directory.example.com');assert.equal(normalizeSiteUrl('https://directory.example.com/'),'https://directory.example.com/');
