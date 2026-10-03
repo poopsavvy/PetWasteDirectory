@@ -1,0 +1,706 @@
+{
+  "checkedDate": "2026-10-02",
+  "scope": "Ten city queries in the southern Dallas area. Google returned some remote or unrelated businesses; presence in search does not establish city coverage. Ratings and review text excluded.",
+  "queries": [
+    {
+      "city": "DeSoto",
+      "url": "https://www.google.com/maps/search/pet%20waste%20removal%20near%20DeSoto%20Texas/",
+      "resultCount": 13,
+      "limitedView": true
+    },
+    {
+      "city": "Cedar Hill",
+      "url": "https://www.google.com/maps/search/pet%20waste%20removal%20near%20Cedar%20Hill%20Texas/",
+      "resultCount": 28,
+      "limitedView": true
+    },
+    {
+      "city": "Duncanville",
+      "url": "https://www.google.com/maps/search/pet%20waste%20removal%20near%20Duncanville%20Texas/",
+      "resultCount": 28,
+      "limitedView": true
+    },
+    {
+      "city": "Lancaster",
+      "url": "https://www.google.com/maps/search/pet%20waste%20removal%20near%20Lancaster%20Texas/",
+      "resultCount": 28,
+      "limitedView": true
+    },
+    {
+      "city": "Red Oak",
+      "url": "https://www.google.com/maps/search/pet%20waste%20removal%20near%20Red%20Oak%20Texas/",
+      "resultCount": 4,
+      "limitedView": true
+    },
+    {
+      "city": "Midlothian",
+      "url": "https://www.google.com/maps/search/pet%20waste%20removal%20near%20Midlothian%20Texas/",
+      "resultCount": 4,
+      "limitedView": true
+    },
+    {
+      "city": "Glenn Heights",
+      "url": "https://www.google.com/maps/search/pet%20waste%20removal%20near%20Glenn%20Heights%20Texas/",
+      "resultCount": 28,
+      "limitedView": true
+    },
+    {
+      "city": "Ovilla",
+      "url": "https://www.google.com/maps/search/pet%20waste%20removal%20near%20Ovilla%20Texas/",
+      "resultCount": 10,
+      "limitedView": true
+    },
+    {
+      "city": "Waxahachie",
+      "url": "https://www.google.com/maps/search/pet%20waste%20removal%20near%20Waxahachie%20Texas/",
+      "resultCount": 3,
+      "limitedView": true
+    },
+    {
+      "city": "Dallas",
+      "url": "https://www.google.com/maps/search/pet%20waste%20removal%20near%20Dallas%20Texas/",
+      "resultCount": 28,
+      "limitedView": true
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Booty Scoopy",
+      "website": "http://www.bootyscoopy.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Booty+Scoopy/data=!4m7!3m6!1s0x4ebb14d009e373c1:0xc529eacbbf1e9788!8m2!3d32.6061036!4d-96.8597416!16s%2Fg%2F11x5vmrkyv!19sChIJwXPjCdAUu04RiJcev8vqKcU",
+      "seenIn": [
+        "DeSoto",
+        "Cedar Hill",
+        "Duncanville",
+        "Lancaster",
+        "Red Oak",
+        "Ovilla",
+        "Dallas"
+      ],
+      "phone": "(469) 383-8899"
+    },
+    {
+      "name": "Top Dog Scoop Co.",
+      "website": "https://topdogscoopco.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Top+Dog+Scoop+Co./data=!4m7!3m6!1s0x6180a917ee8fd683:0x1b84365b5ba58ad4!8m2!3d32.5393767!4d-96.7630644!16s%2Fg%2F11z713s78m!19sChIJg9aP7hepgGER1IqlW1s2hBs",
+      "seenIn": [
+        "DeSoto",
+        "Cedar Hill",
+        "Duncanville",
+        "Lancaster",
+        "Red Oak",
+        "Glenn Heights",
+        "Ovilla",
+        "Waxahachie",
+        "Dallas"
+      ],
+      "phone": "(469) 333-2883"
+    },
+    {
+      "name": "Poop Savvy",
+      "website": "https://www.poop-savvy.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Poop+Savvy/data=!4m7!3m6!1s0x47ef596015448f79:0x232c4fb7b31770fd!8m2!3d32.567707!4d-96.8581115!16s%2Fg%2F11xgsmm5l9!19sChIJeY9EFWBZ70cR_XAXs7dPLCM",
+      "seenIn": [
+        "DeSoto",
+        "Cedar Hill",
+        "Duncanville",
+        "Lancaster",
+        "Glenn Heights",
+        "Ovilla"
+      ],
+      "phone": "(972) 388-8255"
+    },
+    {
+      "name": "POOP 911 DeSoto",
+      "website": "https://www.poop911.com/service-area/texas/desoto-pooper-scooper-service/",
+      "mapsUrl": "https://www.google.com/maps/place/POOP+911+DeSoto/data=!4m7!3m6!1s0x66cbbb42c40f6879:0xda96aaa7f828ebc9!8m2!3d32.6062595!4d-96.8653025!16s%2Fg%2F11vtbpzxmr!19sChIJeWgPxEK7y2YRyeso-Keqlto",
+      "seenIn": [
+        "DeSoto",
+        "Cedar Hill",
+        "Duncanville",
+        "Lancaster",
+        "Ovilla"
+      ],
+      "phone": "(469) 718-5951"
+    },
+    {
+      "name": "Scoopity Doo Doo --- Dog Waste Removal",
+      "website": "https://pooperscoopers.indallasfortworth.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Scoopity+Doo+Doo+---+Dog+Waste+Removal/data=!4m7!3m6!1s0x2af337d9d9d03019:0x3e44a5ca42d80085!8m2!3d32.349798!4d-96.769778!16s%2Fg%2F11yqdgyfmm!19sChIJGTDQ2dk38yoRhQDYQsqlRD4",
+      "seenIn": [
+        "DeSoto",
+        "Cedar Hill",
+        "Duncanville",
+        "Lancaster",
+        "Red Oak",
+        "Midlothian",
+        "Glenn Heights",
+        "Ovilla",
+        "Waxahachie"
+      ],
+      "phone": "(469) 289-2850"
+    },
+    {
+      "name": "POOP 911 Arlington",
+      "website": "https://www.poop911.com/service-area/texas/arlington-pooper-scooper-service/",
+      "mapsUrl": "https://www.google.com/maps/place/POOP+911+Arlington/data=!4m7!3m6!1s0xd2bbb21b57deb45:0x6dd931f75b16b914!8m2!3d32.7020051!4d-97.1355256!16s%2Fg%2F11vz6qgnnw!19sChIJRet9tSG7Kw0RFLkWW_cx2W0",
+      "seenIn": [
+        "DeSoto",
+        "Cedar Hill",
+        "Duncanville",
+        "Lancaster"
+      ],
+      "phone": "(817) 518-4368"
+    },
+    {
+      "name": "Sgt. Poopers Pet Waste Removal",
+      "website": "https://sgtpoopers.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Sgt.+Poopers+Pet+Waste+Removal/data=!4m7!3m6!1s0x65416e5ca90b910f:0x6ed2a52e99f9dfe8!8m2!3d32.846946!4d-96.6866702!16s%2Fg%2F11rgdpg51k!19sChIJD5ELqVxuQWUR6N_5mS6l0m4",
+      "seenIn": [
+        "DeSoto",
+        "Cedar Hill",
+        "Duncanville",
+        "Lancaster",
+        "Glenn Heights",
+        "Ovilla",
+        "Dallas"
+      ],
+      "phone": "(214) 563-6379"
+    },
+    {
+      "name": "I Scoop Poop",
+      "website": "http://www.iscooppoopdfw.com/",
+      "mapsUrl": "https://www.google.com/maps/place/I+Scoop+Poop/data=!4m7!3m6!1s0x864e8948fd9b503f:0x540898eec60bef95!8m2!3d32.7430719!4d-96.963595!16s%2Fg%2F11pxm58fk5!19sChIJP1Cb_UiJToYRle8Lxu6YCFQ",
+      "seenIn": [
+        "DeSoto",
+        "Cedar Hill",
+        "Duncanville",
+        "Lancaster",
+        "Glenn Heights",
+        "Ovilla"
+      ],
+      "phone": "(682) 408-9502"
+    },
+    {
+      "name": "Doggy Doggz Pet Waste Removal Dallas",
+      "website": "https://doggydoggz.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Doggy+Doggz+Pet+Waste+Removal+Dallas/data=!4m7!3m6!1s0x864c217f076eb1d3:0x5ef297fc42450b0a!8m2!3d32.983715!4d-96.7698935!16s%2Fg%2F11rb9jftpt!19sChIJ07FuB38hTIYRCgtFQvyX8l4",
+      "seenIn": [
+        "DeSoto",
+        "Cedar Hill",
+        "Duncanville",
+        "Glenn Heights",
+        "Ovilla",
+        "Dallas"
+      ],
+      "phone": "(972) 905-0720"
+    },
+    {
+      "name": "Poopie Patrol",
+      "website": "https://poopiepatrol.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Poopie+Patrol/data=!4m7!3m6!1s0x864e9ecabf834f61:0x1f09af10b749e72!8m2!3d32.8048873!4d-96.8125576!16s%2Fg%2F1tf292rj!19sChIJYU-Dv8qeToYRcp50C_Ga8AE",
+      "seenIn": [
+        "DeSoto",
+        "Cedar Hill",
+        "Duncanville",
+        "Dallas"
+      ],
+      "phone": "(214) 923-2575"
+    },
+    {
+      "name": "Goodboy! Pet Waste Removal",
+      "website": "https://www.goodboypetwasteremoval.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Goodboy!+Pet+Waste+Removal/data=!4m7!3m6!1s0x864eed3d387597a7:0xe9a6071925534d09!8m2!3d32.4387641!4d-96.816791!16s%2Fg%2F11n6lt29xk!19sChIJp5d1OD3tToYRCU1TJRkHpuk",
+      "seenIn": [
+        "DeSoto",
+        "Cedar Hill",
+        "Duncanville",
+        "Lancaster",
+        "Red Oak",
+        "Midlothian",
+        "Glenn Heights",
+        "Ovilla",
+        "Waxahachie"
+      ],
+      "phone": "(972) 800-9087"
+    },
+    {
+      "name": "Scoop Troopers ATX - Pet Waste Removal",
+      "website": "http://scooptroopersatx.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Scoop+Troopers+ATX+-+Pet+Waste+Removal/data=!4m7!3m6!1s0x8252f9c24daca2b3:0x5190b0ea6c324129!8m2!3d30.4140535!4d-97.6995555!16s%2Fg%2F11z7nllfts!19sChIJs6KsTcL5UoIRKUEybOqwkFE",
+      "seenIn": [
+        "DeSoto",
+        "Cedar Hill",
+        "Duncanville",
+        "Midlothian",
+        "Glenn Heights",
+        "Ovilla",
+        "Dallas"
+      ],
+      "phone": "(512) 721-8311"
+    },
+    {
+      "name": "Tony's pet waste removal",
+      "website": "",
+      "mapsUrl": "https://www.google.com/maps/place/Tony%27s+pet+waste+removal/data=!4m7!3m6!1s0x864e915131deb205:0xc367abc5343d3c02!8m2!3d32.7430719!4d-96.963595!16s%2Fg%2F11j8p88thp!19sChIJBbLeMVGRToYRAjw9NMWrZ8M",
+      "seenIn": [
+        "DeSoto",
+        "Duncanville"
+      ],
+      "phone": "(469) 665-9909"
+    },
+    {
+      "name": "Fresh Start - Pet Waste Removal",
+      "website": "https://freshstartpetwasteremoval.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Fresh+Start+-+Pet+Waste+Removal/data=!4m7!3m6!1s0x2b96108765df20f7:0x927c711bf98d9fda!8m2!3d30.606034!4d-97.656189!16s%2Fg%2F11l6bg6tf6!19sChIJ9yDfZYcQlisR2p-N-RtxfJI",
+      "seenIn": [
+        "Cedar Hill",
+        "Duncanville",
+        "Lancaster"
+      ],
+      "phone": "(512) 955-5371"
+    },
+    {
+      "name": "POOP 911 Central DFW",
+      "website": "https://www.poop911.com/service-area/texas/central-dallas-fort-worth-pooper-scooper-service",
+      "mapsUrl": "https://www.google.com/maps/place/POOP+911+Central+DFW/data=!4m7!3m6!1s0x864e9b5b8c7a5f45:0x30c29a60ffeb428c!8m2!3d32.7430719!4d-96.963595!16s%2Fg%2F11ghq68j3v!19sChIJRV96jFubToYRjELr_2CawjA",
+      "seenIn": [
+        "Cedar Hill",
+        "Duncanville",
+        "Lancaster",
+        "Dallas"
+      ],
+      "phone": "(877) 766-7911"
+    },
+    {
+      "name": "Happy Paws Pet Waste Removal",
+      "website": "https://happypawspetwasteremoval.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Happy+Paws+Pet+Waste+Removal/data=!4m7!3m6!1s0x864c739f13355b11:0xb4189987440a7a1c!8m2!3d33.3322052!4d-96.5702466!16s%2Fg%2F11j23lk6c2!19sChIJEVs1E59zTIYRHHoKRIeZGLQ",
+      "seenIn": [
+        "Cedar Hill",
+        "Glenn Heights",
+        "Dallas"
+      ],
+      "phone": "(903) 335-2008"
+    },
+    {
+      "name": "Scoop It - Pet Waste Removal",
+      "website": "https://www.scoopit.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Scoop+It+-+Pet+Waste+Removal/data=!4m7!3m6!1s0x864c2b129c7b2edb:0xf8b4cad5c109b0c7!8m2!3d32.968769!4d-97.0453298!16s%2Fg%2F11y6m96lw0!19sChIJ2y57nBIrTIYRx7AJwdXKtPg",
+      "seenIn": [
+        "Cedar Hill",
+        "Duncanville",
+        "Glenn Heights",
+        "Dallas"
+      ],
+      "phone": "(817) 941-4222"
+    },
+    {
+      "name": "LUXE SCOOPERS DFW Dog Poop Waste Removal",
+      "website": "https://www.luxescoopers.com/",
+      "mapsUrl": "https://www.google.com/maps/place/LUXE+SCOOPERS+DFW+Dog+Poop+Waste+Removal/data=!4m7!3m6!1s0x3b6c5b1bbfa7317:0xa251f31cb31c91a3!8m2!3d33.1700426!4d-97.079671!16s%2Fg%2F11x6f38xcn!19sChIJF3P6u7HFtgMRo5EcsxzzUaI",
+      "seenIn": [
+        "Cedar Hill"
+      ],
+      "phone": "(940) 373-5448"
+    },
+    {
+      "name": "Pawfect Poop Removal",
+      "website": "https://pawfectpoopremoval.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Pawfect+Poop+Removal/data=!4m7!3m6!1s0x10e1d3e10f14143:0x63a9be58811d434a!8m2!3d30.2645554!4d-97.8141656!16s%2Fg%2F11y780yqkc!19sChIJQ0HxED4dDgERSkMdgVi-qWM",
+      "seenIn": [
+        "Cedar Hill"
+      ],
+      "phone": "(512) 593-8565"
+    },
+    {
+      "name": "SKOUPI - Pet Waste Removal Service",
+      "website": "https://www.skoupi.com/",
+      "mapsUrl": "https://www.google.com/maps/place/SKOUPI+-+Pet+Waste+Removal+Service/data=!4m7!3m6!1s0xc2b33a9d81c72b7:0xa002dda251df775e!8m2!3d29.5800681!4d-98.399544!16s%2Fg%2F11zkqfblt7!19sChIJt3Ic2KkzKwwRXnffUaLdAqA",
+      "seenIn": [
+        "Cedar Hill",
+        "Glenn Heights"
+      ],
+      "phone": "(830) 730-4393"
+    },
+    {
+      "name": "Scoop Soldiers",
+      "website": "https://www.scoopsoldiers.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Scoop+Soldiers/data=!4m7!3m6!1s0x864c131ada0e1957:0x3de375175e510b34!8m2!3d46.423669!4d-129.9427086!16s%2Fg%2F11fgj4p37s!19sChIJVxkO2hoTTIYRNAtRXhd14z0",
+      "seenIn": [
+        "Cedar Hill"
+      ],
+      "phone": "(877) 930-7667"
+    },
+    {
+      "name": "Step Easy Dog Waste Removal",
+      "website": "http://www.stepeasyhouston.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Step+Easy+Dog+Waste+Removal/data=!4m7!3m6!1s0x87c0eb1442b012a7:0xb68ea58557c87881!8m2!3d29.8049525!4d-95.465351!16s%2Fg%2F11stf7rllj!19sChIJpxKwQhTrwIcRgXjIV4WljrY",
+      "seenIn": [
+        "Cedar Hill"
+      ],
+      "phone": "(346) 504-1109"
+    },
+    {
+      "name": "Better Scoops",
+      "website": "https://www.betterscoops.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Better+Scoops/data=!4m7!3m6!1s0x22661dab9652291f:0x445ee896792aef8f!8m2!3d31.5417914!4d-97.602017!16s%2Fg%2F11x32b8zmz!19sChIJHylSlqsdZiIRj-8qeZboXkQ",
+      "seenIn": [
+        "Cedar Hill"
+      ],
+      "phone": "(737) 307-1444"
+    },
+    {
+      "name": "Pet Poo Pickup RGV",
+      "website": "https://ppprgv.pet/",
+      "mapsUrl": "https://www.google.com/maps/place/Pet+Poo+Pickup+RGV/data=!4m7!3m6!1s0x866575ed87849de1:0x675f87cd2005c01a!8m2!3d26.1534267!4d-97.8683664!16s%2Fg%2F11hzx5193d!19sChIJ4Z2Eh-11ZYYRGsAFIM2HX2c",
+      "seenIn": [
+        "Cedar Hill"
+      ],
+      "phone": "(956) 533-6153"
+    },
+    {
+      "name": "Houston Pet Waste Removal",
+      "website": "https://pet-waste-removal.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Houston+Pet+Waste+Removal/data=!4m7!3m6!1s0x8647395b468c37af:0xba28f05fbc59862f!8m2!3d30.3210041!4d-95.4652094!16s%2Fg%2F11xsgw6kpc!19sChIJrzeMRls5R4YRL4ZZvF_wKLo",
+      "seenIn": [
+        "Cedar Hill"
+      ],
+      "phone": "(916) 360-0328"
+    },
+    {
+      "name": "Tactical Pet Waste Removal",
+      "website": "https://tacticalpwr.jobbersites.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Tactical+Pet+Waste+Removal/data=!4m7!3m6!1s0x46d7f1e21831269d:0x359a941ba794748!8m2!3d31.0454021!4d-97.4797179!16s%2Fg%2F11md1xdq3q!19sChIJnSYxGOLx10YRSEd5ukGpWQM",
+      "seenIn": [
+        "Cedar Hill"
+      ],
+      "phone": "(254) 226-4861"
+    },
+    {
+      "name": "Magic Unicorn Pooper Scooper and Dog Walkers",
+      "website": "http://www.magicunicorndfw.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Magic+Unicorn+Pooper+Scooper+and+Dog+Walkers/data=!4m7!3m6!1s0x864e9f639cb2a32b:0xd38e65b404362fb2!8m2!3d32.8371413!4d-96.7525913!16s%2Fg%2F11g69_w772!19sChIJK6OynGOfToYRsi82BLRljtM",
+      "seenIn": [
+        "Duncanville",
+        "Lancaster",
+        "Dallas"
+      ],
+      "phone": "(214) 725-1566"
+    },
+    {
+      "name": "Scoop Masters Dallas Fort Worth",
+      "website": "https://www.scoopmasters.com/dallas",
+      "mapsUrl": "https://www.google.com/maps/place/Scoop+Masters+Dallas+Fort+Worth/data=!4m7!3m6!1s0x864c2debf731d895:0x8d48ffd79e471672!8m2!3d32.9543685!4d-97.011644!16s%2Fg%2F11c1tyvhbj!19sChIJldgx9-stTIYRchZHntf_SI0",
+      "seenIn": [
+        "Duncanville",
+        "Lancaster",
+        "Dallas"
+      ],
+      "phone": "(800) 787-7667"
+    },
+    {
+      "name": "Pet Waste Inc",
+      "website": "https://petwaste.com/dfw/?utm_source=local&utm_medium=organic&utm_campaign=GMB",
+      "mapsUrl": "https://www.google.com/maps/place/Pet+Waste+Inc/data=!4m7!3m6!1s0x864c2f7931a3b283:0xf8e9ce941a852d6e!8m2!3d33.107787!4d-96.833425!16s%2Fg%2F1jmckfx27!19sChIJg7KjMXkvTIYRbi2FGpTO6fg",
+      "seenIn": [
+        "Duncanville",
+        "Glenn Heights",
+        "Dallas"
+      ],
+      "phone": "(972) 394-7180"
+    },
+    {
+      "name": "Doggy Doggz Pet Waste Removal",
+      "website": "https://doggydoggz.com/fort-worth-pooper-scooper-service/",
+      "mapsUrl": "https://www.google.com/maps/place/Doggy+Doggz+Pet+Waste+Removal/data=!4m7!3m6!1s0x864e772899b26dc9:0x5ef3f7dafb6583cf!8m2!3d32.8225067!4d-97.3096879!16s%2Fg%2F11h79yqvdg!19sChIJyW2ymSh3ToYRz4Nl-9r3814",
+      "seenIn": [
+        "Duncanville",
+        "Lancaster",
+        "Glenn Heights",
+        "Dallas"
+      ],
+      "phone": "(682) 213-5221"
+    },
+    {
+      "name": "EcoClear Solutions LLC - Valet Trash",
+      "website": "https://ecoclearsolutions.net/",
+      "mapsUrl": "https://www.google.com/maps/place/EcoClear+Solutions+LLC+-+Valet+Trash/data=!4m7!3m6!1s0x864e9f3da6855b31:0x4f10098ab562e7f6!8m2!3d32.7210486!4d-96.972127!16s%2Fg%2F11wr1d73m2!19sChIJMVuFpj2fToYR9uditYoJEE8",
+      "seenIn": [
+        "Duncanville",
+        "Lancaster"
+      ],
+      "phone": "(888) 298-0078"
+    },
+    {
+      "name": "Poo The Rescue - Pet Waste Removal Service",
+      "website": "http://www.pootherescue.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Poo+The+Rescue+-+Pet+Waste+Removal+Service/data=!4m7!3m6!1s0x8640d5fc19363845:0xb59376b6eba583b7!8m2!3d29.9637801!4d-95.7115456!16s%2Fg%2F1yg93k89r!19sChIJRTg2GfzVQIYRt4Ol67Z2k7U",
+      "seenIn": [
+        "Duncanville",
+        "Lancaster",
+        "Glenn Heights",
+        "Dallas"
+      ],
+      "phone": "(713) 730-9273"
+    },
+    {
+      "name": "Doggy Doggz Pet Waste Removal",
+      "website": "https://doggydoggz.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Doggy+Doggz+Pet+Waste+Removal/data=!4m7!3m6!1s0x864c33375e69062d:0xd2be705c73ea3ea4!8m2!3d33.0725762!4d-97.058743!16s%2Fg%2F11mzb9tztd!19sChIJLQZpXjczTIYRpD7qc1xwvtI",
+      "seenIn": [
+        "Duncanville",
+        "Glenn Heights",
+        "Dallas"
+      ],
+      "phone": "(469) 830-2997"
+    },
+    {
+      "name": "Scoops Pooper Scoopers",
+      "website": "http://avscoops.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Scoops+Pooper+Scoopers/data=!4m7!3m6!1s0x80c25b7195850121:0x1749a988a18e9162!8m2!3d34.6934813!4d-118.170688!16s%2Fg%2F11rrf6r8jh!19sChIJIQGFlXFbwoARYpGOoYipSRc",
+      "seenIn": [
+        "Lancaster"
+      ],
+      "phone": "(661) 344-4642"
+    },
+    {
+      "name": "River Valley Scoopers",
+      "website": "",
+      "mapsUrl": "https://www.google.com/maps/place/River+Valley+Scoopers/data=!4m7!3m6!1s0xa8d75142fe4e5561:0xdffe9885fc8717fa!8m2!3d35.3050224!4d-94.407191!16s%2Fg%2F11npf2h0fh!19sChIJYVVO_kJR16gR-heH_IWY_t8",
+      "seenIn": [
+        "Lancaster"
+      ],
+      "phone": "(479) 769-1111"
+    },
+    {
+      "name": "Pet Doodie Waste Management Services",
+      "website": "https://petdoodie.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Pet+Doodie+Waste+Management+Services/data=!4m7!3m6!1s0x864c16aca829b129:0xaad74f4a4a18d0e9!8m2!3d33.166545!4d-96.6637823!16s%2Fg%2F11bbrp9mc3!19sChIJKbEpqKwWTIYR6dAYSkpP16o",
+      "seenIn": [
+        "Lancaster",
+        "Glenn Heights",
+        "Dallas"
+      ],
+      "phone": "(469) 708-7667"
+    },
+    {
+      "name": "EZ Pet Doo-Doo Removal",
+      "website": "https://ezpetdoodooremoval.com/",
+      "mapsUrl": "https://www.google.com/maps/place/EZ+Pet+Doo-Doo+Removal/data=!4m7!3m6!1s0x4131bee876613ddb:0x32bfe07a834b221a!8m2!3d35.3239475!4d-101.504673!16s%2Fg%2F11x6y3pqth!19sChIJ2z1hdui-MUERGiJLg3rgvzI",
+      "seenIn": [
+        "Lancaster"
+      ],
+      "phone": "(806) 463-6225"
+    },
+    {
+      "name": "Pappy The Pooper Scooper",
+      "website": "https://pappythepooperscooper.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Pappy+The+Pooper+Scooper/data=!4m7!3m6!1s0x86494d534f64414d:0x30b98c38fe21ec8c!8m2!3d32.0042336!4d-96.2440414!16s%2Fg%2F11swzx10wn!19sChIJTUFkT1NNSYYRjOwh_jiMuTA",
+      "seenIn": [
+        "Lancaster"
+      ],
+      "phone": "(972) 563-7667"
+    },
+    {
+      "name": "K-SCOOPS Pet Waste Management (Pooper Scooper)",
+      "website": "https://www.k-scoops.com/",
+      "mapsUrl": "https://www.google.com/maps/place/K-SCOOPS+Pet+Waste+Management+%28Pooper+Scooper%29/data=!4m7!3m6!1s0x27b711dd2953cb83:0x59fefa18dccfa59c!8m2!3d32.769829!4d-96.185379!16s%2Fg%2F11vqhpghd2!19sChIJg8tTKd0RtycRnKXP3Bj6_lk",
+      "seenIn": [
+        "Lancaster"
+      ],
+      "phone": "(903) 833-6777"
+    },
+    {
+      "name": "Happy Paws Pet Waste Removal - Anna",
+      "website": "http://happypawspetwasteremoval.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Happy+Paws+Pet+Waste+Removal+-+Anna/data=!4m7!3m6!1s0x28bf8581792a4305:0xf79dede7a28d95fd!8m2!3d33.4692194!4d-96.6753432!16s%2Fg%2F11vqhqbz9g!19sChIJBUMqeYGFvygR_ZWNouftnfc",
+      "seenIn": [
+        "Lancaster"
+      ],
+      "phone": "(903) 335-2008"
+    },
+    {
+      "name": "McScoopin Poopin",
+      "website": "https://mcscoopinpoopin.com/",
+      "mapsUrl": "https://www.google.com/maps/place/McScoopin+Poopin/data=!4m7!3m6!1s0x40b6f16f82112e79:0x2c9bebea459ef2a3!8m2!3d34.6395955!4d-118.1206705!16s%2Fg%2F11yrp52gwt!19sChIJeS4Rgm_xtkARo_KeRerrmyw",
+      "seenIn": [
+        "Lancaster"
+      ],
+      "phone": "(661) 270-6662"
+    },
+    {
+      "name": "Scoop Bros Pet Waste Removal",
+      "website": "https://thescoopbros.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Scoop+Bros+Pet+Waste+Removal/data=!4m7!3m6!1s0x82f397e59b0c2abd:0x8872e191692b4ff9!8m2!3d34.6973159!4d-106.8079694!16s%2Fg%2F11zjjr90sj!19sChIJvSoMm-WX84IR-U8raZHhcog",
+      "seenIn": [
+        "Midlothian"
+      ],
+      "phone": "(505) 370-7707"
+    },
+    {
+      "name": "Doggy Doggz Pet Waste Removal",
+      "website": "https://doggydoggz.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Doggy+Doggz+Pet+Waste+Removal/data=!4m7!3m6!1s0x864dd9f6c19c91b3:0xffc8b53cd23058e6!8m2!3d32.933601!4d-97.3302486!16s%2Fg%2F11mzt7hj25!19sChIJs5GcwfbZTYYR5lgw0jy1yP8",
+      "seenIn": [
+        "Glenn Heights",
+        "Dallas"
+      ],
+      "phone": "(682) 447-0487"
+    },
+    {
+      "name": "A1 Scoop Warriors of North Fort Worth",
+      "website": "https://a1scoopwarriors.com/pooper-scooper-service-north-fort-worth-tx",
+      "mapsUrl": "https://www.google.com/maps/place/A1+Scoop+Warriors+of+North+Fort+Worth/data=!4m7!3m6!1s0x864dd9d02df640dd:0x91da77f616724ca8!8m2!3d32.9121525!4d-97.2716923!16s%2Fg%2F11np_q14r0!19sChIJ3UD2LdDZTYYRqExyFvZ32pE",
+      "seenIn": [
+        "Glenn Heights"
+      ],
+      "phone": "(817) 697-7355"
+    },
+    {
+      "name": "POOP 911 Fort Worth",
+      "website": "https://www.poop911.com/service-area/texas/fort-worth-pooper-scooper-service/",
+      "mapsUrl": "https://www.google.com/maps/place/POOP+911+Fort+Worth/data=!4m7!3m6!1s0x864dd95d06f89e0b:0x35acf127f380bbb3!8m2!3d32.7430719!4d-97.224873!16s%2Fg%2F11qnttj921!19sChIJC574Bl3ZTYYRs7uA8yfxrDU",
+      "seenIn": [
+        "Glenn Heights"
+      ],
+      "phone": "(817) 535-9595"
+    },
+    {
+      "name": "Pet Waste Pros",
+      "website": "http://www.petwasteprostx.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Pet+Waste+Pros/data=!4m7!3m6!1s0x8640e7d7b7b33d0f:0x3436d60677e0c9f3!8m2!3d29.6408817!4d-95.6280797!16s%2Fg%2F11y93t9fql!19sChIJDz2zt9fnQIYR88ngdwbWNjQ",
+      "seenIn": [
+        "Glenn Heights"
+      ],
+      "phone": "(281) 900-7214"
+    },
+    {
+      "name": "A1 Scoop Warriors",
+      "website": "https://a1scoopwarriors.com/",
+      "mapsUrl": "https://www.google.com/maps/place/A1+Scoop+Warriors/data=!4m7!3m6!1s0x660ab5b6677c903f:0x9c31dd83fa352c64!8m2!3d32.8212296!4d-97.3106889!16s%2Fg%2F11x902p7wx!19sChIJP5B8Z7a1CmYRZCw1-oPdMZw",
+      "seenIn": [
+        "Glenn Heights"
+      ],
+      "phone": "(469) 722-5924"
+    },
+    {
+      "name": "Department of Doody, LLC",
+      "website": "https://deptofdoody.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Department+of+Doody,+LLC/data=!4m7!3m6!1s0x864dd7debe3b082f:0x6f6e29b7305180c1!8m2!3d32.9322042!4d-97.3298852!16s%2Fg%2F11g9nm0jpn!19sChIJLwg7vt7XTYYRwYBRMLcpbm8",
+      "seenIn": [
+        "Glenn Heights",
+        "Dallas"
+      ],
+      "phone": "(817) 674-7667"
+    },
+    {
+      "name": "Houston Paw Scooper",
+      "website": "https://houstonpawscooper.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Houston+Paw+Scooper/data=!4m7!3m6!1s0x2a6bc190a5f1b001:0x552df4d4e4d56a33!8m2!3d29.836095!4d-95.46119!16s%2Fg%2F11y_zmw3rj!19sChIJAbDxpZDBayoRM2rV5NT0LVU",
+      "seenIn": [
+        "Glenn Heights"
+      ],
+      "phone": "(346) 606-6788"
+    },
+    {
+      "name": "Texas Dog Waste Services",
+      "website": "http://texasdogwasteservices.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Texas+Dog+Waste+Services/data=!4m7!3m6!1s0x8640ddec51430d5f:0xb61391ffa55bae6f!8m2!3d29.822042!4d-95.793818!16s%2Fg%2F11hyl6k4w3!19sChIJXw1DUezdQIYRb65bpf-RE7Y",
+      "seenIn": [
+        "Glenn Heights"
+      ],
+      "phone": "(713) 346-9396"
+    },
+    {
+      "name": "Trusty Tail Pet Waste Removal",
+      "website": "https://trustytailpetwaste.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Trusty+Tail+Pet+Waste+Removal/data=!4m7!3m6!1s0x2f1f4a8961c85475:0x498e95f251d489a!8m2!3d29.5769395!4d-95.4040075!16s%2Fg%2F11y_jftpbk!19sChIJdVTIYYlKHy8RmkgdJV_pmAQ",
+      "seenIn": [
+        "Glenn Heights"
+      ],
+      "phone": "(832) 981-1363"
+    },
+    {
+      "name": "Super Scoopers",
+      "website": "https://www.superscoopers.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Super+Scoopers/data=!4m7!3m6!1s0x8869a72c35024cd7:0xbf9c718e50a024ed!8m2!3d33.1469115!4d-96.9154632!16s%2Fg%2F11cksczqmg!19sChIJ10wCNSynaYgR7SSgUI5xnL8",
+      "seenIn": [
+        "Dallas"
+      ],
+      "phone": "(469) 405-7667"
+    },
+    {
+      "name": "POOP 911 Northeast Dallas",
+      "website": "https://www.poop911.com/service-area/texas-pet-waste-removal/north-east-dallas-dog-poop-clean-up",
+      "mapsUrl": "https://www.google.com/maps/place/POOP+911+Northeast+Dallas/data=!4m7!3m6!1s0x37d6e516e4388e7:0x7cbb57af9cc02e0d!8m2!3d33.0680555!4d-96.641654!16s%2Fg%2F11rnc3_9g8!19sChIJ54hDblFufQMRDS7AnK9Xu3w",
+      "seenIn": [
+        "Dallas"
+      ],
+      "phone": "(469) 664-7471"
+    },
+    {
+      "name": "PAWS Pooper Scoopers Pet Waste Removal",
+      "website": "",
+      "mapsUrl": "https://www.google.com/maps/place/PAWS+Pooper+Scoopers+Pet+Waste+Removal/data=!4m7!3m6!1s0x864c274624a396bd:0x2f57bf5f4f15a253!8m2!3d32.9707712!4d-96.877321!16s%2Fg%2F11txv82h0l!19sChIJvZajJEYnTIYRU6IVT1-_Vy8",
+      "seenIn": [
+        "Dallas"
+      ],
+      "phone": "(214) 686-1121"
+    },
+    {
+      "name": "Scoop Soldiers - Plano",
+      "website": "https://www.scoopsoldiers.com/service-area/plano-tx",
+      "mapsUrl": "https://www.google.com/maps/place/Scoop+Soldiers+-+Plano/data=!4m7!3m6!1s0x46ccb9f8751c9bc3:0xc4e45a6239a05f85!8m2!3d32.9778515!4d-96.6879145!16s%2Fg%2F11vsgkzvlm!19sChIJw5scdfi5zEYRhV-gOWJa5MQ",
+      "seenIn": [
+        "Dallas"
+      ],
+      "phone": "(877) 930-7667"
+    },
+    {
+      "name": "DoodyCalls\u00ae of Dallas-Fort Worth",
+      "website": "https://www.doodycalls.com/dallas/?utm_source=GMB&utm_medium=organic&utm_campaign=dallas",
+      "mapsUrl": "https://www.google.com/maps/place/DoodyCalls%C2%AE+of+Dallas-Fort+Worth/data=!4m7!3m6!1s0x43053fcd267faa81:0xc236d9692777b7ca!8m2!3d32.8051163!4d-97.0347402!16s%2Fg%2F11vrlkjkgc!19sChIJgap_Js0_BUMRyrd3J2nZNsI",
+      "seenIn": [
+        "Dallas"
+      ],
+      "phone": "(469) 489-5017"
+    },
+    {
+      "name": "Pet Butler",
+      "website": "https://www.petbutler.com/locations/dallas-texas-pooper-scooper/?utm_source=uberall&utm_medium=local_listings&utm_campaign=google_business_profile",
+      "mapsUrl": "https://www.google.com/maps/place/Pet+Butler/data=!4m7!3m6!1s0x864c27f16a181cd5:0x35be860eca83c52c!8m2!3d32.9830945!4d-96.9496948!16s%2Fg%2F113h65t88!19sChIJ1RwYavEnTIYRLMWDyg6GvjU",
+      "seenIn": [
+        "Dallas"
+      ],
+      "phone": "(214) 702-0116"
+    },
+    {
+      "name": "Scoopers",
+      "website": "http://scooperspwm.com/",
+      "mapsUrl": "https://www.google.com/maps/place/Scoopers/data=!4m7!3m6!1s0x864c0209b6cd3651:0x976b19e27bf5136e!8m2!3d32.8833927!4d-96.4629264!16s%2Fg%2F1tn01mn3!19sChIJUTbNtgkCTIYRbhP1e-IZa5c",
+      "seenIn": [
+        "Dallas"
+      ],
+      "phone": "(469) 548-1980"
+    },
+    {
+      "name": "POOP 911 North Dallas",
+      "website": "https://www.poop911.com/service-area/texas/north-dallas-pooper-scooper-service/",
+      "mapsUrl": "https://www.google.com/maps/place/POOP+911+North+Dallas/data=!4m7!3m6!1s0x864c19080d7d016b:0xc4c08b108f02c0cb!8m2!3d32.9753591!4d-96.666871!16s%2Fg%2F11f61tkhf5!19sChIJawF9DQgZTIYRy8ACjxCLwMQ",
+      "seenIn": [
+        "Dallas"
+      ],
+      "phone": "(214) 714-0595"
+    },
+    {
+      "name": "Scoop Soldiers - Dallas",
+      "website": "https://www.scoopsoldiers.com/locations/dallas",
+      "mapsUrl": "https://www.google.com/maps/place/Scoop+Soldiers+-+Dallas/data=!4m7!3m6!1s0x4aad474449103d1d:0xb71d1b1c2623a160!8m2!3d32.818504!4d-96.7320961!16s%2Fg%2F11ptmc411g!19sChIJHT0QSURHrUoRYKEjJhwbHbc",
+      "seenIn": [
+        "Dallas"
+      ],
+      "phone": "(877) 930-7667"
+    }
+  ]
+}
